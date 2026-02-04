@@ -1,15 +1,24 @@
 PODS:
   - Flutter (1.0.0)
+  - flutter_svprogresshud (0.0.7):
+    - Flutter
+    - flutter_svprogresshud/SVProgressHUD_Core (= 0.0.7)
+  - flutter_svprogresshud/SVProgressHUD_Core (0.0.7):
+    - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - flutter_svprogresshud (from `.symlinks/plugins/flutter_svprogresshud/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  flutter_svprogresshud:
+    :path: ".symlinks/plugins/flutter_svprogresshud/ios"
 
 SPEC CHECKSUMS:
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_svprogresshud: c45a3ae9c4709387affe7f9e3bbd94ed4eb15c1b
 
 PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
 
