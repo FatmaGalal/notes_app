@@ -1,6 +1,26 @@
 # notes_app
+A simple Flutter Notes Application built as part of a Flutter course exercise.
+This project was created to practice core Flutter concepts including UI building, basic state management, and handling user input.A new Flutter project.
 
-A new Flutter project.
+
+🚀 Features
+* Create notes
+* Edit existing notes
+* Delete notes
+* Clean and simple UI
+* Built using Flutter widgets and layouts
+
+🛠️ Technologies Used
+* Flutter
+* Dart
+
+📚 Purpose of the Project
+This app is an educational project developed during a Flutter course to apply and reinforce:
+* Widget composition
+* State management fundamentals
+* Navigation and UI structure
+* Basic CRUD logic
+
 
 ## Getting Started
 
