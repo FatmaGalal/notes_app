@@ -17,6 +17,7 @@ class NoteView extends StatelessWidget {
 
         onPressed: () {
           showModalBottomSheet(
+            isScrollControlled: true,
             context: context,
             builder: (context) {
               return AddNoteButtomSheet();
