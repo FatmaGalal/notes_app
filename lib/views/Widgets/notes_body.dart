@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:notes_app/cubits/notes_cubit/notes_cubit.dart';
-import 'package:notes_app/views/Widgets/custom_app_bar.dart';
+import 'package:flutter/material.dart';import 'package:notes_app/views/Widgets/custom_app_bar.dart';
 import 'package:notes_app/views/Widgets/notes_listview.dart';
 
 class NotesBody extends StatelessWidget {
@@ -10,9 +7,11 @@ class NotesBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(16),
-      child: const Column(
+      child: Column(
         children: [
-          CustomAppBar(icon: Icons.search,),
+          CustomAppBar(title: 'Notes', icon: Icons.check,onPress:(){
+
+          }),
           Expanded(child: NotesListView()),
         ],
       ),
